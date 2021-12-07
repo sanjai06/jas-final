@@ -8,7 +8,7 @@ body {
 :root {
   --satisfy: "Satisfy", cursive;
   /* --primary :#EE4C7D; */
-  --primary: #d4af37;
+  --primary: #cfa55b;
   --poppins: "Poppins", sans-serif;
   /* --primaryGradient: linear-gradient(
     178.35deg,
@@ -22,12 +22,8 @@ body {
 }
 
 nav {
-  background: linear-gradient(
-    175.77deg,
-    rgb(0, 0, 0) -132.19%,
-    rgba(255, 255, 255, 0) 633.66%
-  );
-  backdrop-filter: blur(1px);
+  /* background:rgba(0, 0, 0, 0.103);
+  backdrop-filter: blur(1px); */
 }
 nav ul li {
   padding: 0.5rem 2rem;
@@ -35,10 +31,7 @@ nav ul li {
 a:hover {
   color: var(--primary);
 }
-/* .custom-toggler .navbar-toggler-icon {
- color: #ffd700;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 215, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
+
 .fa-bars{
   color: var(--primary);
   font-size: 2rem;
@@ -48,7 +41,6 @@ a:hover {
 
 a:hover {
   transform: scale(1.5);
-  /* box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ; */
   cursor: pointer;
   transition: 0.1s ease-in-out;
   color: var(--primary);
@@ -261,6 +253,8 @@ padding: 5%;
 .social-media-clm-2-row {
   padding: 1rem 0;
 }
+
+
 footer {
   width: 100%;
   padding: 2rem 5%;
@@ -268,11 +262,13 @@ footer {
   margin: auto;
   color: var(--white);
 }
+
 .footer-col {
   padding: 1rem;
   justify-content: center;
   text-align: center;
 }
+
 .footer-col h3 pre {
   font-size: 2rem;
   font-family: 300;
@@ -326,7 +322,7 @@ footer hr {
 .our-clients h3 {
   padding: 1rem;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: bold;
   color: black;
 }
 .our-clients span {
@@ -380,6 +376,12 @@ hr {
   color: var(--primary);
   padding: 50vh 0;
 }
+.gallery-page{
+  background-image: url("../img/4196050.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
 .gallery {
   width: 100%;
   height: 100%;
@@ -408,13 +410,18 @@ hr {
   border: 2px solid var(--primary);
 }
 .more {
-  color: black;
+  color: #fff;
   background: var(--primary);
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 2px;
   padding: 1% 2rem;
-  /* font-size:rem; */
+  cursor: pointer;
 }
+.more:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
 .gallery-page-img-3 img {
   aspect-ratio: 1/2;
   width: 100%;
@@ -424,14 +431,16 @@ hr {
   width: 100%;
   padding: 1% 0;
 }
-
+.c-item img {
+  height:60vh;
+}
 .wearealso{
   padding: 2%;
 
 }
 
 .home .carousel-item{
-	min-height: 100vh;
+	min-height: 92vh;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -593,7 +602,7 @@ hr {
     display: none;
   }
   .home {
-    height: 70vh;
+    height: 100vh;
   }
   .home-text h1 {
     font-size: 2rem;
@@ -659,6 +668,11 @@ hr {
   font-family: var(--satisfy);
   width: 100%;
 }
+.slide-ourclient{
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 }
