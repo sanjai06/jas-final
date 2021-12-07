@@ -5,8 +5,8 @@ var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 var year = now.getFullYear()
 var origin = 334;
-var customers = 3000
-var projects = 5000
+var customers = 3652
+var projects = 5895
 var originYear = 2021;
 var years = 0;
 if (originYear < year){
