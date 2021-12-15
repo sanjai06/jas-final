@@ -3,28 +3,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 body {
-  background-color: #fff;
+  background-color:rgb(29, 29, 29);
+  backdrop-filter: blur(1px);
 }
+
+.home{
+  background-color: rgb(29, 29, 29);;
+}
+
 :root {
   --satisfy: "Satisfy", cursive;
-  /* --primary :#EE4C7D; */
   --primary: #cfa55b;
   --poppins: "Poppins", sans-serif;
-  /* --primaryGradient: linear-gradient(
-    178.35deg,
-    #de4574 -19.85%,
-    #000000 107.69%
-  ); */
   --white: #fff;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 .ham{
   display: none;
 }
 
-nav {
-  /* background:rgba(0, 0, 0, 0.103);
-  backdrop-filter: blur(1px); */
-}
+
 nav ul li {
   padding: 0.5rem 2rem;
 }
@@ -254,6 +256,7 @@ padding: 5%;
   padding: 1rem 0;
 }
 
+#client-testimonial-carousel {min-height: 200px;}
 
 footer {
   width: 100%;
@@ -261,6 +264,7 @@ footer {
   background-color: #000000;
   margin: auto;
   color: var(--white);
+  
 }
 
 .footer-col {
@@ -407,8 +411,17 @@ hr {
   aspect-ratio: 16/9;
   text-align: center;
   justify-content: center;
-  border: 2px solid var(--primary);
+  transition: transform .5s ease;
+  cursor: pointer;
+  
 }
+.gallery-col:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
 .more {
   color: #fff;
   background: var(--primary);
@@ -436,8 +449,106 @@ hr {
 }
 .wearealso{
   padding: 2%;
+  
 
 }
+
+.testnomial h1{
+  text-align: center;
+  color: var(--primary);
+  padding-top: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+#demo {
+  max-width: 900px;
+  margin: auto
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem
+}
+
+@media(max-width:767px) {
+  .carousel-caption {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color: rgba(78, 77, 77, 0.856);
+      text-align: center;
+      font-size: 0.7rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem
+  }
+}
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem
+}
+
+@media(max-width:767px) {
+  .carousel-caption img {
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+  #image-caption {
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem
+  }
+}
+
+i {
+  background-color: rgba(59, 59, 59, 0.034);
+  padding: 1.4rem
+}
+
+@media(max-width:767px) {
+  i {
+      padding: 0.8rem
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start
+}
+
+.carousel-control-next {
+  justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset
+}
+
+
+
+
+
 
 .home .carousel-item{
 	min-height: 92vh;
@@ -602,7 +713,7 @@ hr {
     display: none;
   }
   .home {
-    height: 100vh;
+    height: 90vh;
   }
   .home-text h1 {
     font-size: 2rem;
@@ -673,6 +784,7 @@ hr {
   align-items: center;
 }
 
-
-
 }
+
+/* ------------testnomial---------- */
+
