@@ -786,5 +786,29 @@ i {
 
 }
 
+.container{
+  max-width: 85%;
+  margin:20px auto;
+}
+
+.container .title{
+  font-size: 50px;
+  color:var(--primary);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:15px;
+}
+
+.container .image-container{
+  columns:3 250px;
+  gap:15px;
+}
+
+.container .image-container img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
 /* ------------testnomial---------- */
 
