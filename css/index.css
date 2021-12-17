@@ -124,6 +124,7 @@ padding: 5%;
 .pgr {
   padding-top: 1rem;
   color: var(--white);
+  text-align: center;
 }
 
 .projectscount {
@@ -355,6 +356,7 @@ hr {
 .jd {
   width: 50%;
 }
+
 .cl-25 img {
   width: 100%;
 }
@@ -404,6 +406,7 @@ hr {
   padding: 1rem;
   text-align: center;
   justify-content: center;
+  
 }
 .gallery-col img {
   width: 100%;
@@ -529,6 +532,14 @@ i {
   i {
       padding: 0.8rem
   }
+  .aboutus-img{
+  padding-top: 25%;
+  }
+  .col-text pre{
+    width: 100%;
+    
+  }
+  
 }
 
 .carousel-control-prev {
@@ -545,10 +556,7 @@ i {
   opacity: unset
 }
 
-
-
-
-
+/* home page slider */
 
 .home .carousel-item{
 	min-height: 92vh;
@@ -730,6 +738,7 @@ i {
   .cl-25 img {
     width: 100%;
   }
+
   .col-proj h3 {
     font-size: 1rem;
     font-weight: 800;
@@ -745,18 +754,7 @@ i {
   .col-proj {
     padding: 0.5rem;
   }
-  .gallery-col {
-    padding: 0;
-  }
-  .gallery-page-img-6 img {
-    padding: 0;
-  }
-  .gallery-page-img-6 {
-    padding: 0;
-  }
-  .gallery-page-img-6 {
-    padding: 0;
-  }
+  
 
 
 .wearealso h2{
