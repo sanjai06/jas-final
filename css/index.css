@@ -133,6 +133,7 @@ padding: 5%;
   background-color: var(--primary);
   padding: 2rem 0;
   margin: auto;
+  cursor: pointer;
 }
 
 .col-proj {
@@ -143,11 +144,11 @@ padding: 5%;
 }
 .col-proj h3 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 .col-proj h6 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .col-serv {
   width: 100%;
@@ -810,3 +811,8 @@ i {
 }
 /* ------------testnomial---------- */
 
+.aboutus__title {
+  font-size: var(--biggest-font-size);
+  line-height: 140%;
+  margin-bottom: var(--mb-0-5);
+}
